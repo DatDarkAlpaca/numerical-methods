@@ -6,7 +6,7 @@ results bisection(double a, double b, double (*f)(double), double tolerance)
 {
 	if (!validateInterval(a, b, f))
 	{
-		printf("The values provided will never converge to a root.");
+		fprintf(stderr, "%s", "The values provided will never converge to a root.\n");
 		return;
 	}
 
