@@ -16,8 +16,8 @@ struct results
 	unsigned int steps;
 } typedef results;
 
-void printResults(results results)
+void printResults(const results* const results)
 {
-	printf("Root: %f\n", results.root);
-	printf("Steps: %d\n", results.steps);
+	printf("Root: %f\n", results->root);
+	printf("Steps: %d\n", results->steps);
 }

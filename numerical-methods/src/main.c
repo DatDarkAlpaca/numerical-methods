@@ -16,13 +16,13 @@ int main()
 	// Bisection Method:
 #if 0
 	results bisectionResults = bisection(1.0, 2.0, function, TOLERANCE);
-	printResults(bisectionResults);
+	printResults(&bisectionResults);
 #endif
 
 	// Newton's Method:
 #if 1
 	results newtonResults = newton(1., function, derivative, TOLERANCE);
-	printResults(newtonResults);
+	printResults(&newtonResults);
 #endif
 
 	return 0;
