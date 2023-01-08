@@ -161,7 +161,9 @@
   <ItemGroup>
     <ClInclude Include="src\root_finding\bisection.h" />
     <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\root_finding\false_position.h" />
     <ClInclude Include="src\root_finding\newton.h" />
+    <ClInclude Include="src\root_finding\secant.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />

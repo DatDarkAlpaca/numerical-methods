@@ -29,6 +29,12 @@
     <ClInclude Include="src\root_finding\newton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\root_finding\false_position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\root_finding\secant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore">
